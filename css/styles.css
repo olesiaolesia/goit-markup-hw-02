@@ -7,8 +7,6 @@
     --secondary-bcg-color:;
 }
 
-
-
 .list {
     list-style: none;
 }
@@ -137,9 +135,6 @@ body{
 }
 
 .features-text {
-    font-size: 16px;
-    line-height: 1.5;
-    /* letter-spacing: 0.02em; */
     color: #434455;
 }
 
@@ -182,9 +177,6 @@ body{
 }
 
 .team-text {
-    font-size: 16px;
-    line-height: 1.50;
-    /* letter-spacing: 0.02em; */
     color: #434455;
 }
 
@@ -215,9 +207,6 @@ body{
 }
 
 .footer-text {
-    font-size: 16px;
-    line-height: 1.5;
-    /* letter-spacing: 0.02em; */
     color: #E7E9FC;
 }
 
@@ -255,16 +244,17 @@ body{
 .content-subtitle {
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;
+    /* letter-spacing: 0.02em; */
     color: #434455;
 }
 
 .content-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
     color: #F4F4FD;
     background-color: var(--primary-accent-color);
 }
 
-
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    /* letter-spacing: 0.02em; */
+}
