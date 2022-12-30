@@ -3,10 +3,9 @@
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --primary-accent-color: #4D5AE5;
+    --primary-bcg-color:;
+    --secondary-bcg-color:;
 }
-
-
-
 
 
 
@@ -54,7 +53,6 @@ body{
 }
 
 .menu-link {
-    
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -71,7 +69,6 @@ body{
 /* ==========CONTACTS========== */
 
 .contacts-link {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     /* letter-spacing: 0.02em; */
@@ -117,7 +114,7 @@ body{
 
 
 /* ========== FEATURES ========== */
-.features-title-hidden {
+.title-hidden {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -140,7 +137,6 @@ body{
 }
 
 .features-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     /* letter-spacing: 0.02em; */
@@ -186,7 +182,6 @@ body{
 }
 
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     /* letter-spacing: 0.02em; */
@@ -220,11 +215,56 @@ body{
 }
 
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     /* letter-spacing: 0.02em; */
     color: #E7E9FC;
+}
+
+
+/* ========== FILTER========== */
+
+.filter-btn {
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #E7E9FC;
+    color: var(--primary-accent-color);
+    cursor: pointer;
+}
+
+.filter-btn:hover,
+.filter-btn:active,
+.filter-btn:focus {
+    background-color:#404BBF;
+    color: #FFFFFF;
+}
+
+/* ========== CONTENT ========== */
+
+.content-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark-accent-color);
+}
+
+.content-subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.content-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+    background-color: var(--primary-accent-color);
 }
 
 
