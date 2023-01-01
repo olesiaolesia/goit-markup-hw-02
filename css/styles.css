@@ -18,10 +18,27 @@
 body{
  /* background-color: #F4F4FD; */
     font-family: var(--primary-font);
+    /* font-size: 16px; */
     letter-spacing: 0.02em;
 }
 
 /* ==========COMPONENTS========== */
+.title {
+    font-weight: 700;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
 
 /* ========== /COMPONENTS========== */
 
@@ -30,6 +47,7 @@ body{
 .header {
     /* background-color: #E7E9FC; */
 }
+
 .header-logo {
     font-family: var(--secondary-font);
     font-weight: 800;
@@ -42,19 +60,13 @@ body{
 
 .header-logo-span {
     font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: var(--dark-accent-color);
 }
 
 .menu-link {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
-    /* letter-spacing: 0.02em; */
+    letter-spacing: 0.02em;
     color: var(--dark-accent-color);
 }
 
@@ -67,9 +79,8 @@ body{
 /* ==========CONTACTS========== */
 
 .contacts-link {
-    font-size: 16px;
     line-height: 1.5;
-    /* letter-spacing: 0.02em; */
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -87,16 +98,14 @@ body{
 }
 
 .hero-title {
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    /* letter-spacing: 0.02em; */
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
 .hero-btn {
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
@@ -126,10 +135,6 @@ body{
   }
 
 .features-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    /* letter-spacing: 0.02em; */
     color: var(--dark-accent-color);
 
 }
@@ -141,10 +146,9 @@ body{
 /* ========== EXAMPLES ========== */
 
 .examples-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* letter-spacing: 0.02em; */
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark-accent-color);
 }
@@ -159,19 +163,14 @@ body{
    background-color:  #FFFFFF;
 }
 .team-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-    /* letter-spacing: 0.02em; */
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--dark-accent-color);
 }
 
 .team-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.20;
-    /* letter-spacing: 0.02em; */
     color: var(--dark-accent-color);
 
 }
@@ -198,11 +197,6 @@ body{
 
 .footer-logo-span {
     font-family: var(--secondary-font);
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #F4F4FD;
 }
 
@@ -216,7 +210,6 @@ body{
 .filter-btn {
     font-family: var(--primary-font);
     font-weight: 500;
-    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #E7E9FC;
@@ -231,30 +224,12 @@ body{
     color: #FFFFFF;
 }
 
-/* ========== CONTENT ========== */
+/* ========== SECTION ========== */
 
-.content-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+.section-subtitle {
     color: var(--dark-accent-color);
 }
 
-.content-subtitle {
-    font-size: 16px;
-    line-height: 1.5;
-    /* letter-spacing: 0.02em; */
+.section-description {
     color: #434455;
-}
-
-.content-text {
-    color: #F4F4FD;
-    background-color: var(--primary-accent-color);
-}
-
-.text {
-    font-size: 16px;
-    line-height: 1.5;
-    /* letter-spacing: 0.02em; */
 }
